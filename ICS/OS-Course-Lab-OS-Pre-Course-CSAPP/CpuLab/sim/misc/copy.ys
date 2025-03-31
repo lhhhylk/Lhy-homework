@@ -1,0 +1,54 @@
+# Name: 刘浩宇
+# Student ID：523031910521
+
+# Execution begins at address 0
+        .pos 0
+        irmovq stack, %rsp
+        call main
+        halt
+
+# Sample
+        .align 8
+# Source block
+src:
+        .quad 0x00a
+        .quad 0x0b0
+        .quad 0xc00
+
+# Destination block
+dest:
+        .quad 0x111
+        .quad 0x222
+        .quad 0x333
+
+main:
+        irmovq src, %rdi        # src
+        irmovq dest, %rsi       # dest
+        irmovq $3, %rdx         # len
+        call copy_block
+
+# long copy_block(long *src, long *dest, long len)
+# src in %rdi, dest in %rsi, len in %rdx
+copy_block:
+        pushq %rbx              # 保存 %rbx 替代 %r8
+        xorq %rax, %rax         # 初始化校验和为 0
+        andq %rdx, %rdx         # 检查 len <= 0
+        jle done                # 如果是，结束
+
+loop:
+        mrmovq (%rdi), %rbx     # %rbx = *src
+        rmmovq %rbx, (%rsi)     # *dest = %rbx
+        xorq %rbx, %rax         # 更新校验和
+        irmovq $8, %rbx         # 每次移动 8 字节
+        addq %rbx, %rdi         # src++
+        addq %rbx, %rsi         # dest++
+        subq $1, %rdx           # len--
+        jg loop                 # 如果 len > 0，继续
+
+done:
+        popq %rbx               # 恢复 %rbx
+        ret
+
+# Stack starts here and grows to lower addresses
+        .pos 0x200
+stack:
