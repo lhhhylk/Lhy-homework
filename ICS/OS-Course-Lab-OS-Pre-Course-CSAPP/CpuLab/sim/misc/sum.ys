@@ -20,25 +20,25 @@ ele3:
         .quad 0
 
 main:
-        irmovq ele1, %rdi       # 参数1：链表头部地址
-        call sum_list           # 调用 sum_list
+        irmovq ele1,%rdi
+        call sum_list
+        ret
 
 # long sum_list(list_ptr ls)
-# ls in %rdi, return value in %rax
+# start in %rdi
 sum_list:
-        xorq %rax, %rax         # 初始化总和为 0
-        andq %rdi, %rdi         # 检查 ls 是否为 NULL
-        je done                 # 如果是，结束
+        irmovq $0, %rax
+        jmp test
 
 loop:
-        mrmovq (%rdi), %rsi     # %rsi = ls->val
-        addq %rsi, %rax         # 累加到总和
-        mrmovq 8(%rdi), %rdi    # %rdi = ls->next
-        andq %rdi, %rdi         # 检查 ls 是否为 NULL
-        jne loop                # 如果不是，继续循环
+        mrmovq (%rdi), %rsi
+        addq %rsi, %rax
+        mrmovq 8(%rdi), %rdi
 
-done:
-        ret                     # 返回，结果在 %rax 中
+test:
+        andq %rdi, %rdi
+        jne loop
+        ret
 
 # Stack starts here and grows to lower addresses
         .pos 0x200

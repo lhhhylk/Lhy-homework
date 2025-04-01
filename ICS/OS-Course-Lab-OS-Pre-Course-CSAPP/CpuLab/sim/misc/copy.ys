@@ -3,9 +3,9 @@
 
 # Execution begins at address 0
         .pos 0
-        irmovq stack, %rsp
-        call main
-        halt
+        irmovq stack, %rsp      # Set up stack pointer
+        call main               # Execute main program
+        halt                    # Terminate program
 
 # Sample
         .align 8
@@ -26,27 +26,27 @@ main:
         irmovq dest, %rsi       # dest
         irmovq $3, %rdx         # len
         call copy_block
+        ret
 
 # long copy_block(long *src, long *dest, long len)
-# src in %rdi, dest in %rsi, len in %rdx
+# src in %rdi
+# dest in %rsi
+# len in %rdx
 copy_block:
-        pushq %rbx              # 保存 %rbx 替代 %r8
-        xorq %rax, %rax         # 初始化校验和为 0
-        andq %rdx, %rdx         # 检查 len <= 0
-        jle done                # 如果是，结束
-
+        irmovq $8, %r8
+        irmovq $1, %r9
+        irmovq $0, %rax
+        andq %rdx, %rdx
+        jmp test
 loop:
-        mrmovq (%rdi), %rbx     # %rbx = *src
-        rmmovq %rbx, (%rsi)     # *dest = %rbx
-        xorq %rbx, %rax         # 更新校验和
-        irmovq $8, %rbx         # 每次移动 8 字节
-        addq %rbx, %rdi         # src++
-        addq %rbx, %rsi         # dest++
-        subq $1, %rdx           # len--
-        jg loop                 # 如果 len > 0，继续
-
-done:
-        popq %rbx               # 恢复 %rbx
+        mrmovq (%rdi), %r10     # val = *src1
+        addq %r8, %rdi          # src++
+        rmmovq %r10, (%rsi)     # *dest = val
+        addq %r8, %rsi          # dest++
+        xorq %r10, %rax         # result ^= val
+        subq %r9, %rdx          # len--.  Set CC
+test:
+        jne loop                # Stop when 0
         ret
 
 # Stack starts here and grows to lower addresses
