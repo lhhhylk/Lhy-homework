@@ -1,0 +1,6 @@
+# ninja log v6
+5	1124	7653001911247660	CMakeFiles/rbtree.dir/rbtree.cpp.obj	2ac6a5b8271c39e
+114	1148	7653001912335842	CMakeFiles/rbtree.dir/main.cpp.obj	fbc449e675aac2dd
+1148	1782	7653001922668250	rbtree.exe	106f2ed923e79d92
+13	894	7653008927054572	CMakeFiles/rbtree.dir/rbtree.cpp.obj	2ac6a5b8271c39e
+896	1220	7653008935887190	rbtree.exe	106f2ed923e79d92
