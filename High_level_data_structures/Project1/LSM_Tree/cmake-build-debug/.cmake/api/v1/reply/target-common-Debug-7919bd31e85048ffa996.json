@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "third_party/llama.cpp/src/libllama.a"
+			"path" : "third_party/llama.cpp/common/libcommon.a"
 		}
 	],
 	"backtrace" : 1,
@@ -12,7 +12,6 @@
 		"commands" : 
 		[
 			"add_library",
-			"install",
 			"target_link_libraries",
 			"add_compile_options",
 			"llama_add_compile_flags",
@@ -22,9 +21,9 @@
 		],
 		"files" : 
 		[
-			"third_party/llama.cpp/src/CMakeLists.txt",
-			"third_party/llama.cpp/CMakeLists.txt",
-			"third_party/llama.cpp/cmake/common.cmake"
+			"third_party/llama.cpp/common/CMakeLists.txt",
+			"third_party/llama.cpp/cmake/common.cmake",
+			"third_party/llama.cpp/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -34,52 +33,46 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 9,
+				"line" : 55,
 				"parent" : 0
-			},
-			{
-				"file" : 1
 			},
 			{
 				"command" : 1,
-				"file" : 1,
-				"line" : 208,
-				"parent" : 2
-			},
-			{
-				"command" : 2,
 				"file" : 0,
-				"line" : 38,
-				"parent" : 0
-			},
-			{
-				"command" : 4,
-				"file" : 0,
-				"line" : 1,
+				"line" : 141,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
-				"file" : 2,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
 				"line" : 27,
+				"parent" : 3
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 49,
 				"parent" : 5
 			},
 			{
 				"command" : 5,
-				"file" : 1,
-				"line" : 49,
-				"parent" : 2
+				"file" : 0,
+				"line" : 139,
+				"parent" : 0
 			},
 			{
 				"command" : 6,
 				"file" : 0,
-				"line" : 35,
-				"parent" : 0
-			},
-			{
-				"command" : 7,
-				"file" : 0,
-				"line" : 36,
+				"line" : 140,
 				"parent" : 0
 			}
 		]
@@ -93,69 +86,77 @@
 					"fragment" : "-g -std=gnu++20 -fdiagnostics-color=always"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"fragment" : "-Wmissing-declarations"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"fragment" : "-Wmissing-noreturn"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"fragment" : "-Wall"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"fragment" : "-Wextra"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"fragment" : "-Wpedantic"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"fragment" : "-Wcast-qual"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"fragment" : "-Wno-unused-function"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"fragment" : "-Wno-array-bounds"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"fragment" : "-Wextra-semi"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-pthread"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"backtrace" : 4,
+					"backtrace" : 2,
 					"define" : "GGML_USE_CPU"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 6,
 					"define" : "_CRT_SECURE_NO_WARNINGS"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 8,
+					"backtrace" : 7,
+					"path" : "C:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/."
+				},
+				{
+					"backtrace" : 2,
 					"path" : "C:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/."
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 2,
 					"path" : "C:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 2,
 					"path" : "C:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 2,
 					"path" : "C:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include"
 				}
 			],
@@ -164,108 +165,97 @@
 			{
 				"backtraces" : 
 				[
-					9
+					8
 				],
 				"standard" : "20"
 			},
 			"sourceIndexes" : 
 			[
-				1,
-				2,
+				0,
 				3,
-				4,
 				5,
-				6,
 				7,
-				8,
 				9,
-				10,
 				11,
 				12,
-				13,
-				14,
-				15,
 				16,
-				17,
 				18,
-				19,
-				20,
-				21
+				20
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 4,
-			"id" : "ggml::@6fb243c56d1be69d9933"
-		},
-		{
-			"backtrace" : 4,
+			"backtrace" : 2,
 			"id" : "ggml-base::@6fb243c56d1be69d9933"
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 2,
+			"id" : "ggml::@6fb243c56d1be69d9933"
+		},
+		{
+			"backtrace" : 2,
 			"id" : "ggml-cpu::@6fb243c56d1be69d9933"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "llama::@bf716c64e9230b199072"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "build_info::@430b077c762759e3094a"
 		}
 	],
-	"id" : "llama::@bf716c64e9230b199072",
-	"install" : 
-	{
-		"destinations" : 
-		[
-			{
-				"backtrace" : 3,
-				"path" : "lib"
-			}
-		],
-		"prefix" : 
-		{
-			"path" : "C:/Program Files (x86)/LSM_TREE"
-		}
-	},
-	"name" : "llama",
-	"nameOnDisk" : "libllama.a",
+	"id" : "common::@430b077c762759e3094a",
+	"name" : "common",
+	"nameOnDisk" : "libcommon.a",
 	"paths" : 
 	{
-		"build" : "third_party/llama.cpp/src",
-		"source" : "third_party/llama.cpp/src"
+		"build" : "third_party/llama.cpp/common",
+		"source" : "third_party/llama.cpp/common"
 	},
 	"sourceGroups" : 
 	[
 		{
-			"name" : "Header Files",
+			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
 				0,
-				22
+				3,
+				5,
+				7,
+				9,
+				11,
+				12,
+				16,
+				18,
+				20
 			]
 		},
 		{
-			"name" : "Source Files",
+			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
 				1,
 				2,
-				3,
 				4,
-				5,
 				6,
-				7,
 				8,
-				9,
 				10,
-				11,
-				12,
 				13,
 				14,
 				15,
-				16,
 				17,
-				18,
 				19,
-				20,
 				21
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				22
 			]
 		}
 	],
@@ -273,139 +263,129 @@
 	[
 		{
 			"backtrace" : 1,
-			"path" : "third_party/llama.cpp/include/llama.h",
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llama.cpp/common/arg.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/llama.cpp/common/arg.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/llama.cpp/common/base64.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llama.cpp/common/chat.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/llama.cpp/common/chat.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llama.cpp/common/common.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/llama.cpp/common/common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llama.cpp/common/console.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/llama.cpp/common/console.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llama.cpp/common/json-schema-to-grammar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/llama.cpp/common/json.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llama.cpp/common/llguidance.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "third_party/llama.cpp/src/llama.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "third_party/llama.cpp/src/llama-adapter.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "third_party/llama.cpp/src/llama-arch.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "third_party/llama.cpp/src/llama-batch.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "third_party/llama.cpp/src/llama-chat.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "third_party/llama.cpp/src/llama-context.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "third_party/llama.cpp/src/llama-grammar.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "third_party/llama.cpp/src/llama-graph.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "third_party/llama.cpp/src/llama-hparams.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "third_party/llama.cpp/src/llama-impl.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "third_party/llama.cpp/src/llama-io.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "third_party/llama.cpp/src/llama-kv-cache.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "third_party/llama.cpp/src/llama-memory.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "third_party/llama.cpp/src/llama-mmap.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "third_party/llama.cpp/src/llama-model-loader.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "third_party/llama.cpp/src/llama-model.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "third_party/llama.cpp/src/llama-quant.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "third_party/llama.cpp/src/llama-sampling.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "third_party/llama.cpp/src/llama-vocab.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "third_party/llama.cpp/src/unicode-data.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "third_party/llama.cpp/src/unicode.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "third_party/llama.cpp/src/unicode.h",
+			"path" : "third_party/llama.cpp/common/log.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/llama.cpp/common/log.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/llama.cpp/common/minja/chat-template.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/llama.cpp/common/minja/minja.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llama.cpp/common/ngram-cache.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/llama.cpp/common/ngram-cache.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llama.cpp/common/sampling.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/llama.cpp/common/sampling.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llama.cpp/common/speculative.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/llama.cpp/common/speculative.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/third_party/llama.cpp/common/CMakeFiles/build_info.dir/build-info.cpp.obj",
+			"sourceGroupIndex" : 2
 		}
 	],
 	"type" : "STATIC_LIBRARY"

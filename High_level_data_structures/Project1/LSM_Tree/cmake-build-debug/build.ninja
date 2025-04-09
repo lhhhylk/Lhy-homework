@@ -54,48 +54,36 @@ build CMakeFiles/correctness.dir/correctness.cc.obj: CXX_COMPILER__correctness_u
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\correctness.dir
   OBJECT_FILE_DIR = CMakeFiles\correctness.dir
-  TARGET_COMPILE_PDB = CMakeFiles\correctness.dir\
-  TARGET_PDB = correctness.pdb
 
 build CMakeFiles/correctness.dir/kvstore.cc.obj: CXX_COMPILER__correctness_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/kvstore.cc || cmake_object_order_depends_target_correctness
   DEP_FILE = CMakeFiles\correctness.dir\kvstore.cc.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\correctness.dir
   OBJECT_FILE_DIR = CMakeFiles\correctness.dir
-  TARGET_COMPILE_PDB = CMakeFiles\correctness.dir\
-  TARGET_PDB = correctness.pdb
 
 build CMakeFiles/correctness.dir/skiplist.cpp.obj: CXX_COMPILER__correctness_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/skiplist.cpp || cmake_object_order_depends_target_correctness
   DEP_FILE = CMakeFiles\correctness.dir\skiplist.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\correctness.dir
   OBJECT_FILE_DIR = CMakeFiles\correctness.dir
-  TARGET_COMPILE_PDB = CMakeFiles\correctness.dir\
-  TARGET_PDB = correctness.pdb
 
 build CMakeFiles/correctness.dir/sstable.cpp.obj: CXX_COMPILER__correctness_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/sstable.cpp || cmake_object_order_depends_target_correctness
   DEP_FILE = CMakeFiles\correctness.dir\sstable.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\correctness.dir
   OBJECT_FILE_DIR = CMakeFiles\correctness.dir
-  TARGET_COMPILE_PDB = CMakeFiles\correctness.dir\
-  TARGET_PDB = correctness.pdb
 
 build CMakeFiles/correctness.dir/bloom.cpp.obj: CXX_COMPILER__correctness_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/bloom.cpp || cmake_object_order_depends_target_correctness
   DEP_FILE = CMakeFiles\correctness.dir\bloom.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\correctness.dir
   OBJECT_FILE_DIR = CMakeFiles\correctness.dir
-  TARGET_COMPILE_PDB = CMakeFiles\correctness.dir\
-  TARGET_PDB = correctness.pdb
 
 build CMakeFiles/correctness.dir/sstablehead.cpp.obj: CXX_COMPILER__correctness_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/sstablehead.cpp || cmake_object_order_depends_target_correctness
   DEP_FILE = CMakeFiles\correctness.dir\sstablehead.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\correctness.dir
   OBJECT_FILE_DIR = CMakeFiles\correctness.dir
-  TARGET_COMPILE_PDB = CMakeFiles\correctness.dir\
-  TARGET_PDB = correctness.pdb
 
 
 # =============================================================================
@@ -111,10 +99,9 @@ build correctness.exe: CXX_EXECUTABLE_LINKER__correctness_Debug CMakeFiles/corre
   OBJECT_DIR = CMakeFiles\correctness.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\correctness.dir\
   TARGET_FILE = correctness.exe
   TARGET_IMPLIB = libcorrectness.dll.a
-  TARGET_PDB = correctness.pdb
+  TARGET_PDB = correctness.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target persistence
@@ -130,48 +117,36 @@ build CMakeFiles/persistence.dir/persistence.cc.obj: CXX_COMPILER__persistence_u
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\persistence.dir
   OBJECT_FILE_DIR = CMakeFiles\persistence.dir
-  TARGET_COMPILE_PDB = CMakeFiles\persistence.dir\
-  TARGET_PDB = persistence.pdb
 
 build CMakeFiles/persistence.dir/kvstore.cc.obj: CXX_COMPILER__persistence_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/kvstore.cc || cmake_object_order_depends_target_persistence
   DEP_FILE = CMakeFiles\persistence.dir\kvstore.cc.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\persistence.dir
   OBJECT_FILE_DIR = CMakeFiles\persistence.dir
-  TARGET_COMPILE_PDB = CMakeFiles\persistence.dir\
-  TARGET_PDB = persistence.pdb
 
 build CMakeFiles/persistence.dir/skiplist.cpp.obj: CXX_COMPILER__persistence_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/skiplist.cpp || cmake_object_order_depends_target_persistence
   DEP_FILE = CMakeFiles\persistence.dir\skiplist.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\persistence.dir
   OBJECT_FILE_DIR = CMakeFiles\persistence.dir
-  TARGET_COMPILE_PDB = CMakeFiles\persistence.dir\
-  TARGET_PDB = persistence.pdb
 
 build CMakeFiles/persistence.dir/sstable.cpp.obj: CXX_COMPILER__persistence_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/sstable.cpp || cmake_object_order_depends_target_persistence
   DEP_FILE = CMakeFiles\persistence.dir\sstable.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\persistence.dir
   OBJECT_FILE_DIR = CMakeFiles\persistence.dir
-  TARGET_COMPILE_PDB = CMakeFiles\persistence.dir\
-  TARGET_PDB = persistence.pdb
 
 build CMakeFiles/persistence.dir/bloom.cpp.obj: CXX_COMPILER__persistence_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/bloom.cpp || cmake_object_order_depends_target_persistence
   DEP_FILE = CMakeFiles\persistence.dir\bloom.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\persistence.dir
   OBJECT_FILE_DIR = CMakeFiles\persistence.dir
-  TARGET_COMPILE_PDB = CMakeFiles\persistence.dir\
-  TARGET_PDB = persistence.pdb
 
 build CMakeFiles/persistence.dir/sstablehead.cpp.obj: CXX_COMPILER__persistence_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/sstablehead.cpp || cmake_object_order_depends_target_persistence
   DEP_FILE = CMakeFiles\persistence.dir\sstablehead.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\persistence.dir
   OBJECT_FILE_DIR = CMakeFiles\persistence.dir
-  TARGET_COMPILE_PDB = CMakeFiles\persistence.dir\
-  TARGET_PDB = persistence.pdb
 
 
 # =============================================================================
@@ -187,10 +162,9 @@ build persistence.exe: CXX_EXECUTABLE_LINKER__persistence_Debug CMakeFiles/persi
   OBJECT_DIR = CMakeFiles\persistence.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\persistence.dir\
   TARGET_FILE = persistence.exe
   TARGET_IMPLIB = libpersistence.dll.a
-  TARGET_PDB = persistence.pdb
+  TARGET_PDB = persistence.exe.dbg
 
 
 #############################################
@@ -418,8 +392,6 @@ build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml.c.obj: C_COMP
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir\ggml-base.pdb
-  TARGET_PDB = third_party\llama.cpp\ggml\src\ggml-base.pdb
 
 build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.obj: C_COMPILER__ggml-base_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-alloc.c || cmake_object_order_depends_target_ggml-base
   DEFINES = -DGGML_SCHED_MAX_COPIES=4 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600
@@ -428,8 +400,6 @@ build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.obj: 
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir\ggml-base.pdb
-  TARGET_PDB = third_party\llama.cpp\ggml\src\ggml-base.pdb
 
 build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.obj: CXX_COMPILER__ggml-base_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-backend.cpp || cmake_object_order_depends_target_ggml-base
   DEFINES = -DGGML_SCHED_MAX_COPIES=4 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600
@@ -438,8 +408,6 @@ build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.o
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir\ggml-base.pdb
-  TARGET_PDB = third_party\llama.cpp\ggml\src\ggml-base.pdb
 
 build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.obj: CXX_COMPILER__ggml-base_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-opt.cpp || cmake_object_order_depends_target_ggml-base
   DEFINES = -DGGML_SCHED_MAX_COPIES=4 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600
@@ -448,8 +416,6 @@ build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.obj: 
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir\ggml-base.pdb
-  TARGET_PDB = third_party\llama.cpp\ggml\src\ggml-base.pdb
 
 build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.obj: CXX_COMPILER__ggml-base_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-threading.cpp || cmake_object_order_depends_target_ggml-base
   DEFINES = -DGGML_SCHED_MAX_COPIES=4 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600
@@ -458,8 +424,6 @@ build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir\ggml-base.pdb
-  TARGET_PDB = third_party\llama.cpp\ggml\src\ggml-base.pdb
 
 build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.obj: C_COMPILER__ggml-base_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-quants.c || cmake_object_order_depends_target_ggml-base
   DEFINES = -DGGML_SCHED_MAX_COPIES=4 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600
@@ -468,8 +432,6 @@ build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.obj:
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir\ggml-base.pdb
-  TARGET_PDB = third_party\llama.cpp\ggml\src\ggml-base.pdb
 
 build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.obj: CXX_COMPILER__ggml-base_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/gguf.cpp || cmake_object_order_depends_target_ggml-base
   DEFINES = -DGGML_SCHED_MAX_COPIES=4 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600
@@ -478,8 +440,6 @@ build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.obj: CXX_
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir\ggml-base.pdb
-  TARGET_PDB = third_party\llama.cpp\ggml\src\ggml-base.pdb
 
 
 # =============================================================================
@@ -494,9 +454,8 @@ build third_party/llama.cpp/ggml/src/ggml-base.a: CXX_STATIC_LIBRARY_LINKER__ggm
   OBJECT_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-base.dir\ggml-base.pdb
   TARGET_FILE = third_party\llama.cpp\ggml\src\ggml-base.a
-  TARGET_PDB = third_party\llama.cpp\ggml\src\ggml-base.pdb
+  TARGET_PDB = ggml-base.a.dbg
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target ggml
@@ -514,8 +473,6 @@ build third_party/llama.cpp/ggml/src/CMakeFiles/ggml.dir/ggml-backend-reg.cpp.ob
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\ggml\src\CMakeFiles\ggml.dir\ggml.pdb
-  TARGET_PDB = third_party\llama.cpp\ggml\src\ggml.pdb
 
 
 # =============================================================================
@@ -530,9 +487,8 @@ build third_party/llama.cpp/ggml/src/ggml.a: CXX_STATIC_LIBRARY_LINKER__ggml_Deb
   OBJECT_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = third_party\llama.cpp\ggml\src\CMakeFiles\ggml.dir\ggml.pdb
   TARGET_FILE = third_party\llama.cpp\ggml\src\ggml.a
-  TARGET_PDB = third_party\llama.cpp\ggml\src\ggml.pdb
+  TARGET_PDB = ggml.a.dbg
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target ggml-cpu
@@ -550,8 +506,6 @@ build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/.. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-cpu -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir\ggml-cpu
-  TARGET_COMPILE_PDB = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir\ggml-cpu.pdb
-  TARGET_PDB = third_party\llama.cpp\ggml\src\ggml-cpu.pdb
 
 build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.obj: CXX_COMPILER__ggml-cpu_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp || cmake_object_order_depends_target_ggml-cpu
   DEFINES = -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600
@@ -560,8 +514,6 @@ build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/.. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-cpu -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir\ggml-cpu
-  TARGET_COMPILE_PDB = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir\ggml-cpu.pdb
-  TARGET_PDB = third_party\llama.cpp\ggml\src\ggml-cpu.pdb
 
 build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.obj: CXX_COMPILER__ggml-cpu_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-aarch64.cpp || cmake_object_order_depends_target_ggml-cpu
   DEFINES = -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600
@@ -570,8 +522,6 @@ build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-a
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/.. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-cpu -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir\ggml-cpu
-  TARGET_COMPILE_PDB = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir\ggml-cpu.pdb
-  TARGET_PDB = third_party\llama.cpp\ggml\src\ggml-cpu.pdb
 
 build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.obj: CXX_COMPILER__ggml-cpu_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-hbm.cpp || cmake_object_order_depends_target_ggml-cpu
   DEFINES = -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600
@@ -580,8 +530,6 @@ build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-h
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/.. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-cpu -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir\ggml-cpu
-  TARGET_COMPILE_PDB = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir\ggml-cpu.pdb
-  TARGET_PDB = third_party\llama.cpp\ggml\src\ggml-cpu.pdb
 
 build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.obj: C_COMPILER__ggml-cpu_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-quants.c || cmake_object_order_depends_target_ggml-cpu
   DEFINES = -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600
@@ -590,8 +538,6 @@ build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-q
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/.. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-cpu -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir\ggml-cpu
-  TARGET_COMPILE_PDB = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir\ggml-cpu.pdb
-  TARGET_PDB = third_party\llama.cpp\ggml\src\ggml-cpu.pdb
 
 build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.obj: CXX_COMPILER__ggml-cpu_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-traits.cpp || cmake_object_order_depends_target_ggml-cpu
   DEFINES = -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600
@@ -600,8 +546,6 @@ build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-t
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/.. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-cpu -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir\ggml-cpu
-  TARGET_COMPILE_PDB = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir\ggml-cpu.pdb
-  TARGET_PDB = third_party\llama.cpp\ggml\src\ggml-cpu.pdb
 
 build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.obj: CXX_COMPILER__ggml-cpu_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-cpu/amx/amx.cpp || cmake_object_order_depends_target_ggml-cpu
   DEFINES = -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600
@@ -610,8 +554,6 @@ build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cp
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/.. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-cpu -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir\ggml-cpu\amx
-  TARGET_COMPILE_PDB = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir\ggml-cpu.pdb
-  TARGET_PDB = third_party\llama.cpp\ggml\src\ggml-cpu.pdb
 
 build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.obj: CXX_COMPILER__ggml-cpu_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-cpu/amx/mmq.cpp || cmake_object_order_depends_target_ggml-cpu
   DEFINES = -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600
@@ -620,8 +562,6 @@ build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cp
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/.. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-cpu -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir\ggml-cpu\amx
-  TARGET_COMPILE_PDB = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir\ggml-cpu.pdb
-  TARGET_PDB = third_party\llama.cpp\ggml\src\ggml-cpu.pdb
 
 build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.obj: CXX_COMPILER__ggml-cpu_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp || cmake_object_order_depends_target_ggml-cpu
   DEFINES = -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600
@@ -630,8 +570,6 @@ build third_party/llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/.. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-cpu -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir\ggml-cpu\llamafile
-  TARGET_COMPILE_PDB = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir\ggml-cpu.pdb
-  TARGET_PDB = third_party\llama.cpp\ggml\src\ggml-cpu.pdb
 
 
 # =============================================================================
@@ -646,9 +584,8 @@ build third_party/llama.cpp/ggml/src/ggml-cpu.a: CXX_STATIC_LIBRARY_LINKER__ggml
   OBJECT_DIR = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = third_party\llama.cpp\ggml\src\CMakeFiles\ggml-cpu.dir\ggml-cpu.pdb
   TARGET_FILE = third_party\llama.cpp\ggml\src\ggml-cpu.a
-  TARGET_PDB = third_party\llama.cpp\ggml\src\ggml-cpu.pdb
+  TARGET_PDB = ggml-cpu.a.dbg
 
 
 #############################################
@@ -806,8 +743,6 @@ build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama.cpp.obj: CXX_COMPILER
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\src\CMakeFiles\llama.dir\llama.pdb
-  TARGET_PDB = third_party\llama.cpp\src\libllama.pdb
 
 build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-adapter.cpp.obj: CXX_COMPILER__llama_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/llama-adapter.cpp || cmake_object_order_depends_target_llama
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -816,8 +751,6 @@ build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-adapter.cpp.obj: CXX_
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\src\CMakeFiles\llama.dir\llama.pdb
-  TARGET_PDB = third_party\llama.cpp\src\libllama.pdb
 
 build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-arch.cpp.obj: CXX_COMPILER__llama_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/llama-arch.cpp || cmake_object_order_depends_target_llama
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -826,8 +759,6 @@ build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-arch.cpp.obj: CXX_COM
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\src\CMakeFiles\llama.dir\llama.pdb
-  TARGET_PDB = third_party\llama.cpp\src\libllama.pdb
 
 build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-batch.cpp.obj: CXX_COMPILER__llama_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/llama-batch.cpp || cmake_object_order_depends_target_llama
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -836,8 +767,6 @@ build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-batch.cpp.obj: CXX_CO
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\src\CMakeFiles\llama.dir\llama.pdb
-  TARGET_PDB = third_party\llama.cpp\src\libllama.pdb
 
 build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-chat.cpp.obj: CXX_COMPILER__llama_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/llama-chat.cpp || cmake_object_order_depends_target_llama
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -846,8 +775,6 @@ build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-chat.cpp.obj: CXX_COM
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\src\CMakeFiles\llama.dir\llama.pdb
-  TARGET_PDB = third_party\llama.cpp\src\libllama.pdb
 
 build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-context.cpp.obj: CXX_COMPILER__llama_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/llama-context.cpp || cmake_object_order_depends_target_llama
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -856,8 +783,6 @@ build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-context.cpp.obj: CXX_
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\src\CMakeFiles\llama.dir\llama.pdb
-  TARGET_PDB = third_party\llama.cpp\src\libllama.pdb
 
 build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-grammar.cpp.obj: CXX_COMPILER__llama_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/llama-grammar.cpp || cmake_object_order_depends_target_llama
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -866,8 +791,6 @@ build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-grammar.cpp.obj: CXX_
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\src\CMakeFiles\llama.dir\llama.pdb
-  TARGET_PDB = third_party\llama.cpp\src\libllama.pdb
 
 build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-graph.cpp.obj: CXX_COMPILER__llama_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/llama-graph.cpp || cmake_object_order_depends_target_llama
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -876,8 +799,6 @@ build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-graph.cpp.obj: CXX_CO
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\src\CMakeFiles\llama.dir\llama.pdb
-  TARGET_PDB = third_party\llama.cpp\src\libllama.pdb
 
 build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-hparams.cpp.obj: CXX_COMPILER__llama_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/llama-hparams.cpp || cmake_object_order_depends_target_llama
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -886,8 +807,6 @@ build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-hparams.cpp.obj: CXX_
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\src\CMakeFiles\llama.dir\llama.pdb
-  TARGET_PDB = third_party\llama.cpp\src\libllama.pdb
 
 build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-impl.cpp.obj: CXX_COMPILER__llama_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/llama-impl.cpp || cmake_object_order_depends_target_llama
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -896,8 +815,6 @@ build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-impl.cpp.obj: CXX_COM
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\src\CMakeFiles\llama.dir\llama.pdb
-  TARGET_PDB = third_party\llama.cpp\src\libllama.pdb
 
 build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-io.cpp.obj: CXX_COMPILER__llama_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/llama-io.cpp || cmake_object_order_depends_target_llama
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -906,8 +823,6 @@ build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-io.cpp.obj: CXX_COMPI
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\src\CMakeFiles\llama.dir\llama.pdb
-  TARGET_PDB = third_party\llama.cpp\src\libllama.pdb
 
 build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-kv-cache.cpp.obj: CXX_COMPILER__llama_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/llama-kv-cache.cpp || cmake_object_order_depends_target_llama
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -916,8 +831,6 @@ build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-kv-cache.cpp.obj: CXX
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\src\CMakeFiles\llama.dir\llama.pdb
-  TARGET_PDB = third_party\llama.cpp\src\libllama.pdb
 
 build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-memory.cpp.obj: CXX_COMPILER__llama_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/llama-memory.cpp || cmake_object_order_depends_target_llama
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -926,8 +839,6 @@ build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-memory.cpp.obj: CXX_C
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\src\CMakeFiles\llama.dir\llama.pdb
-  TARGET_PDB = third_party\llama.cpp\src\libllama.pdb
 
 build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-mmap.cpp.obj: CXX_COMPILER__llama_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/llama-mmap.cpp || cmake_object_order_depends_target_llama
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -936,8 +847,6 @@ build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-mmap.cpp.obj: CXX_COM
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\src\CMakeFiles\llama.dir\llama.pdb
-  TARGET_PDB = third_party\llama.cpp\src\libllama.pdb
 
 build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-model-loader.cpp.obj: CXX_COMPILER__llama_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/llama-model-loader.cpp || cmake_object_order_depends_target_llama
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -946,8 +855,6 @@ build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-model-loader.cpp.obj:
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\src\CMakeFiles\llama.dir\llama.pdb
-  TARGET_PDB = third_party\llama.cpp\src\libllama.pdb
 
 build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-model.cpp.obj: CXX_COMPILER__llama_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/llama-model.cpp || cmake_object_order_depends_target_llama
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -956,8 +863,6 @@ build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-model.cpp.obj: CXX_CO
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\src\CMakeFiles\llama.dir\llama.pdb
-  TARGET_PDB = third_party\llama.cpp\src\libllama.pdb
 
 build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-quant.cpp.obj: CXX_COMPILER__llama_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/llama-quant.cpp || cmake_object_order_depends_target_llama
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -966,8 +871,6 @@ build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-quant.cpp.obj: CXX_CO
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\src\CMakeFiles\llama.dir\llama.pdb
-  TARGET_PDB = third_party\llama.cpp\src\libllama.pdb
 
 build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-sampling.cpp.obj: CXX_COMPILER__llama_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/llama-sampling.cpp || cmake_object_order_depends_target_llama
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -976,8 +879,6 @@ build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-sampling.cpp.obj: CXX
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\src\CMakeFiles\llama.dir\llama.pdb
-  TARGET_PDB = third_party\llama.cpp\src\libllama.pdb
 
 build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-vocab.cpp.obj: CXX_COMPILER__llama_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/llama-vocab.cpp || cmake_object_order_depends_target_llama
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -986,8 +887,6 @@ build third_party/llama.cpp/src/CMakeFiles/llama.dir/llama-vocab.cpp.obj: CXX_CO
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\src\CMakeFiles\llama.dir\llama.pdb
-  TARGET_PDB = third_party\llama.cpp\src\libllama.pdb
 
 build third_party/llama.cpp/src/CMakeFiles/llama.dir/unicode-data.cpp.obj: CXX_COMPILER__llama_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/unicode-data.cpp || cmake_object_order_depends_target_llama
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -996,8 +895,6 @@ build third_party/llama.cpp/src/CMakeFiles/llama.dir/unicode-data.cpp.obj: CXX_C
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\src\CMakeFiles\llama.dir\llama.pdb
-  TARGET_PDB = third_party\llama.cpp\src\libllama.pdb
 
 build third_party/llama.cpp/src/CMakeFiles/llama.dir/unicode.cpp.obj: CXX_COMPILER__llama_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/unicode.cpp || cmake_object_order_depends_target_llama
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -1006,8 +903,6 @@ build third_party/llama.cpp/src/CMakeFiles/llama.dir/unicode.cpp.obj: CXX_COMPIL
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\src\CMakeFiles\llama.dir\llama.pdb
-  TARGET_PDB = third_party\llama.cpp\src\libllama.pdb
 
 
 # =============================================================================
@@ -1022,9 +917,8 @@ build third_party/llama.cpp/src/libllama.a: CXX_STATIC_LIBRARY_LINKER__llama_Deb
   OBJECT_DIR = third_party\llama.cpp\src\CMakeFiles\llama.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = third_party\llama.cpp\src\CMakeFiles\llama.dir\llama.pdb
   TARGET_FILE = third_party\llama.cpp\src\libllama.a
-  TARGET_PDB = third_party\llama.cpp\src\libllama.pdb
+  TARGET_PDB = llama.a.dbg
 
 
 #############################################
@@ -1111,8 +1005,6 @@ build third_party/llama.cpp/common/CMakeFiles/build_info.dir/build-info.cpp.obj:
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi
   OBJECT_DIR = third_party\llama.cpp\common\CMakeFiles\build_info.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\common\CMakeFiles\build_info.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\common\CMakeFiles\build_info.dir\
-  TARGET_PDB = ""
 
 
 
@@ -1137,8 +1029,6 @@ build third_party/llama.cpp/common/CMakeFiles/common.dir/arg.cpp.obj: CXX_COMPIL
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\common\CMakeFiles\common.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\common\CMakeFiles\common.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\common\CMakeFiles\common.dir\common.pdb
-  TARGET_PDB = third_party\llama.cpp\common\libcommon.pdb
 
 build third_party/llama.cpp/common/CMakeFiles/common.dir/chat.cpp.obj: CXX_COMPILER__common_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/chat.cpp || cmake_object_order_depends_target_common
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -1147,8 +1037,6 @@ build third_party/llama.cpp/common/CMakeFiles/common.dir/chat.cpp.obj: CXX_COMPI
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\common\CMakeFiles\common.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\common\CMakeFiles\common.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\common\CMakeFiles\common.dir\common.pdb
-  TARGET_PDB = third_party\llama.cpp\common\libcommon.pdb
 
 build third_party/llama.cpp/common/CMakeFiles/common.dir/common.cpp.obj: CXX_COMPILER__common_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/common.cpp || cmake_object_order_depends_target_common
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -1157,8 +1045,6 @@ build third_party/llama.cpp/common/CMakeFiles/common.dir/common.cpp.obj: CXX_COM
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\common\CMakeFiles\common.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\common\CMakeFiles\common.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\common\CMakeFiles\common.dir\common.pdb
-  TARGET_PDB = third_party\llama.cpp\common\libcommon.pdb
 
 build third_party/llama.cpp/common/CMakeFiles/common.dir/console.cpp.obj: CXX_COMPILER__common_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/console.cpp || cmake_object_order_depends_target_common
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -1167,8 +1053,6 @@ build third_party/llama.cpp/common/CMakeFiles/common.dir/console.cpp.obj: CXX_CO
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\common\CMakeFiles\common.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\common\CMakeFiles\common.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\common\CMakeFiles\common.dir\common.pdb
-  TARGET_PDB = third_party\llama.cpp\common\libcommon.pdb
 
 build third_party/llama.cpp/common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.obj: CXX_COMPILER__common_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/json-schema-to-grammar.cpp || cmake_object_order_depends_target_common
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -1177,8 +1061,6 @@ build third_party/llama.cpp/common/CMakeFiles/common.dir/json-schema-to-grammar.
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\common\CMakeFiles\common.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\common\CMakeFiles\common.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\common\CMakeFiles\common.dir\common.pdb
-  TARGET_PDB = third_party\llama.cpp\common\libcommon.pdb
 
 build third_party/llama.cpp/common/CMakeFiles/common.dir/llguidance.cpp.obj: CXX_COMPILER__common_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/llguidance.cpp || cmake_object_order_depends_target_common
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -1187,8 +1069,6 @@ build third_party/llama.cpp/common/CMakeFiles/common.dir/llguidance.cpp.obj: CXX
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\common\CMakeFiles\common.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\common\CMakeFiles\common.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\common\CMakeFiles\common.dir\common.pdb
-  TARGET_PDB = third_party\llama.cpp\common\libcommon.pdb
 
 build third_party/llama.cpp/common/CMakeFiles/common.dir/log.cpp.obj: CXX_COMPILER__common_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/log.cpp || cmake_object_order_depends_target_common
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -1197,8 +1077,6 @@ build third_party/llama.cpp/common/CMakeFiles/common.dir/log.cpp.obj: CXX_COMPIL
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\common\CMakeFiles\common.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\common\CMakeFiles\common.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\common\CMakeFiles\common.dir\common.pdb
-  TARGET_PDB = third_party\llama.cpp\common\libcommon.pdb
 
 build third_party/llama.cpp/common/CMakeFiles/common.dir/ngram-cache.cpp.obj: CXX_COMPILER__common_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/ngram-cache.cpp || cmake_object_order_depends_target_common
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -1207,8 +1085,6 @@ build third_party/llama.cpp/common/CMakeFiles/common.dir/ngram-cache.cpp.obj: CX
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\common\CMakeFiles\common.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\common\CMakeFiles\common.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\common\CMakeFiles\common.dir\common.pdb
-  TARGET_PDB = third_party\llama.cpp\common\libcommon.pdb
 
 build third_party/llama.cpp/common/CMakeFiles/common.dir/sampling.cpp.obj: CXX_COMPILER__common_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/sampling.cpp || cmake_object_order_depends_target_common
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -1217,8 +1093,6 @@ build third_party/llama.cpp/common/CMakeFiles/common.dir/sampling.cpp.obj: CXX_C
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\common\CMakeFiles\common.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\common\CMakeFiles\common.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\common\CMakeFiles\common.dir\common.pdb
-  TARGET_PDB = third_party\llama.cpp\common\libcommon.pdb
 
 build third_party/llama.cpp/common/CMakeFiles/common.dir/speculative.cpp.obj: CXX_COMPILER__common_unscanned_Debug C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/speculative.cpp || cmake_object_order_depends_target_common
   DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS
@@ -1227,8 +1101,6 @@ build third_party/llama.cpp/common/CMakeFiles/common.dir/speculative.cpp.obj: CX
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include
   OBJECT_DIR = third_party\llama.cpp\common\CMakeFiles\common.dir
   OBJECT_FILE_DIR = third_party\llama.cpp\common\CMakeFiles\common.dir
-  TARGET_COMPILE_PDB = third_party\llama.cpp\common\CMakeFiles\common.dir\common.pdb
-  TARGET_PDB = third_party\llama.cpp\common\libcommon.pdb
 
 
 # =============================================================================
@@ -1243,9 +1115,8 @@ build third_party/llama.cpp/common/libcommon.a: CXX_STATIC_LIBRARY_LINKER__commo
   OBJECT_DIR = third_party\llama.cpp\common\CMakeFiles\common.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = third_party\llama.cpp\common\CMakeFiles\common.dir\common.pdb
   TARGET_FILE = third_party\llama.cpp\common\libcommon.a
-  TARGET_PDB = third_party\llama.cpp\common\libcommon.pdb
+  TARGET_PDB = common.a.dbg
 
 
 #############################################
@@ -1342,8 +1213,6 @@ build embedding/CMakeFiles/embedding.dir/embedding.cc.obj: CXX_COMPILER__embeddi
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/embedding -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/.
   OBJECT_DIR = embedding\CMakeFiles\embedding.dir
   OBJECT_FILE_DIR = embedding\CMakeFiles\embedding.dir
-  TARGET_COMPILE_PDB = embedding\CMakeFiles\embedding.dir\embedding.pdb
-  TARGET_PDB = embedding\libembedding.pdb
 
 
 # =============================================================================
@@ -1358,9 +1227,8 @@ build embedding/libembedding.a: CXX_STATIC_LIBRARY_LINKER__embedding_Debug embed
   OBJECT_DIR = embedding\CMakeFiles\embedding.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = embedding\CMakeFiles\embedding.dir\embedding.pdb
   TARGET_FILE = embedding\libembedding.a
-  TARGET_PDB = embedding\libembedding.pdb
+  TARGET_PDB = embedding.a.dbg
 
 
 #############################################
@@ -1448,8 +1316,6 @@ build test/CMakeFiles/Embedding_Test.dir/Embedding_Test.cpp.obj: CXX_COMPILER__E
   INCLUDES = -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/embedding -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/. -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/../common -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/../include -IC:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/.
   OBJECT_DIR = test\CMakeFiles\Embedding_Test.dir
   OBJECT_FILE_DIR = test\CMakeFiles\Embedding_Test.dir
-  TARGET_COMPILE_PDB = test\CMakeFiles\Embedding_Test.dir\
-  TARGET_PDB = test\Embedding_Test.pdb
 
 
 # =============================================================================
@@ -1465,10 +1331,9 @@ build test/Embedding_Test.exe: CXX_EXECUTABLE_LINKER__Embedding_Test_Debug test/
   OBJECT_DIR = test\CMakeFiles\Embedding_Test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = test\CMakeFiles\Embedding_Test.dir\
   TARGET_FILE = test\Embedding_Test.exe
   TARGET_IMPLIB = test\libEmbedding_Test.dll.a
-  TARGET_PDB = test\Embedding_Test.pdb
+  TARGET_PDB = Embedding_Test.exe.dbg
 
 
 #############################################
@@ -1645,14 +1510,14 @@ build third_party/llama.cpp/src/all: phony third_party/llama.cpp/src/libllama.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/embedding/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/test/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/cmake/build-info.cmake C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/cmake/common.cmake C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/cmake/llama-config.cmake.in C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/cmake/llama.pc.in C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/cmake/common.cmake C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/cmake/ggml-config.cmake.in C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-SameMajorVersion.cmake.in D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineRCCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCCompiler.cmake.in D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestRCCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/FindGit.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/FindOpenMP.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Determine-CXX.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/embedding/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/test/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/cmake/build-info.cmake C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/cmake/common.cmake C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/cmake/llama-config.cmake.in C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/cmake/llama.pc.in C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/cmake/common.cmake C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/cmake/ggml-config.cmake.in C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-SameMajorVersion.cmake.in D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/FindGit.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/FindOpenMP.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/embedding/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/test/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/cmake/build-info.cmake C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/cmake/common.cmake C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/cmake/llama-config.cmake.in C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/cmake/llama.pc.in C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/cmake/common.cmake C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/cmake/ggml-config.cmake.in C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-SameMajorVersion.cmake.in D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineRCCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCCompiler.cmake.in D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestRCCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/FindGit.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/FindOpenMP.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Determine-CXX.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake: phony
+build C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/embedding/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/test/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/cmake/build-info.cmake C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/cmake/common.cmake C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/cmake/llama-config.cmake.in C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/cmake/llama.pc.in C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/cmake/common.cmake C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/cmake/ggml-config.cmake.in C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/ggml/src/ggml-cpu/CMakeLists.txt C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-SameMajorVersion.cmake.in D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/FindGit.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/FindOpenMP.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake D$:/Clion/CLion$ 2024.3.5/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake: phony
 
 
 #############################################
