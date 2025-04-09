@@ -4,7 +4,7 @@ import { EditOutlined, PlusOutlined } from '@ant-design/icons';
 import { useContext, useEffect, useState } from "react";
 import { AVATAR_UPLOAD_URL, AVATAR_FILES_PREFIX, changeIntroduction, getMe, getMyAddresses, deleteMyAddress } from "../service/user";
 import { handleBaseApiResponse } from "../utils/message";
-import UsernameAvatar from "../components/username_avatar"
+import UsernameAvatar from "./username_avatar"
 import useMessage from "antd/es/message/useMessage";
 import ImgCrop from 'antd-img-crop'
 import SaveAddressModal from "./save_address_modal";
