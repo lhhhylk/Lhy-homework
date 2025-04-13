@@ -23,6 +23,10 @@ CMAKE_ADDR2LINE:FILEPATH=C:/WinGw64/mingw64/bin/addr2line.exe
 //Path to a program.
 CMAKE_AR:FILEPATH=C:/WinGw64/mingw64/bin/ar.exe
 
+//For backwards compatibility, what version of CMake commands and
+// syntax should this version of CMake try to support.
+CMAKE_BACKWARDS_COMPATIBILITY:STRING=2.4
+
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
 CMAKE_BUILD_TYPE:STRING=Debug
@@ -292,6 +296,9 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Single output directory for building all executables.
+EXECUTABLE_OUTPUT_PATH:PATH=
 
 //ggml: enable Accelerate framework
 GGML_ACCELERATE:BOOL=ON
@@ -575,6 +582,9 @@ GIT_EXE:FILEPATH=C:/Program Files/Git/cmd/git.exe
 //Git command line client
 GIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe
 
+//Single output directory for building all libraries.
+LIBRARY_OUTPUT_PATH:PATH=
+
 //llama: enable all compiler warnings
 LLAMA_ALL_WARNINGS:BOOL=ON
 
@@ -656,6 +666,15 @@ OpenMP_mingwthrd_LIBRARY:FILEPATH=C:/WinGw64/mingw64/x86_64-w64-mingw32/lib/libm
 
 //Path to the pthread library for OpenMP
 OpenMP_pthread_LIBRARY:FILEPATH=C:/WinGw64/mingw64/x86_64-w64-mingw32/lib/libpthread.dll.a
+
+//Value Computed by CMake
+Project_BINARY_DIR:STATIC=C:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/cmake-build-debug
+
+//Value Computed by CMake
+Project_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Project_SOURCE_DIR:STATIC=C:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree
 
 //Dependencies for the target
 embedding_LIB_DEPENDS:STATIC=general;llama;general;common;

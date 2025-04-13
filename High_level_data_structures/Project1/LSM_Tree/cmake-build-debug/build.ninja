@@ -1187,7 +1187,7 @@ build third_party/llama.cpp/common/install/strip: phony third_party/llama.cpp/co
 #############################################
 # Custom command for C:\Users\96317\Desktop\homework\High_level_data_structures\Project1\LSM_Tree\third_party\llama.cpp\common\build-info.cpp
 
-build C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/build-info.cpp: CUSTOM_COMMAND C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/build-info.cpp.in
+build C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/build-info.cpp: CUSTOM_COMMAND C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/build-info.cpp.in C$:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/.git/modules/third_party/llama.cpp/index
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\96317\Desktop\homework\High_level_data_structures\Project1\LSM_Tree\third_party\llama.cpp && "D:\Clion\CLion 2024.3.5\bin\cmake\win\x64\bin\cmake.exe" -DMSVC= -DCMAKE_C_COMPILER_VERSION=14.2.0 -DCMAKE_C_COMPILER_ID=GNU -DCMAKE_VS_PLATFORM_NAME= -DCMAKE_C_COMPILER=C:/WinGw64/mingw64/bin/gcc.exe -P C:/Users/96317/Desktop/homework/High_level_data_structures/Project1/LSM_Tree/third_party/llama.cpp/common/cmake/build-info-gen-cpp.cmake"
   DESC = Generating build details from Git
   restat = 1
