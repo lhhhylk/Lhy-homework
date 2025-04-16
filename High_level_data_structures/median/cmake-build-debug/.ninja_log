@@ -1,0 +1,10 @@
+# ninja log v6
+3	6285	7663790144149889	CMakeFiles/median_selection.dir/median.cc.obj	427a10eed4b4441
+7	4491	7663792332594961	CMakeFiles/median_selection.dir/median.cc.obj	427a10eed4b4441
+4493	4848	7663792377589518	median_selection.exe	6aab643522a0bcd6
+11	4460	7663836928760919	CMakeFiles/median_selection.dir/median.cc.obj	427a10eed4b4441
+4461	4814	7663836973277977	median_selection.exe	6aab643522a0bcd6
+10	4474	7663839306525449	CMakeFiles/median_selection.dir/median.cc.obj	427a10eed4b4441
+4475	4812	7663839351182683	median_selection.exe	6aab643522a0bcd6
+10	4738	7663839781915605	CMakeFiles/median_selection.dir/median.cc.obj	427a10eed4b4441
+4758	5110	7663839829388096	median_selection.exe	6aab643522a0bcd6

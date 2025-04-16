@@ -2,26 +2,26 @@
  *   Student ID: 523031910521
  *   Student Name: 刘浩宇
  *   Description:
- *      Free List:Use free list to manage free blocks. The size of each free list is linear in first few lists and exponential in the last few lists.
- *      Heap structure: The first few blocks are the offset of free list, and the then the start sign of heap, and then blocks that are actually used.
- *      Block structure:
- *                      1. Allocated block:
- *                          1.1. Header: 4 bytes, including the size of the block and the allocated bit.
- *                          1.2. Payload: The actual data.
- *                          1.3. Footer: 4 bytes, including the size of the block and the allocated bit.
- *                     2. Free block:
- *                          2.1. Prev: 4 bytes, the offset of the previous free block in the free list.
- *                          2.2. Succ: 4 bytes, the offset of the next free block in the free list.
- *      Realloc: If size equals 0, free the block. If ptr equals NULL, malloc the block.
- *               If size is larger than the original size:
- *                          case 1: If the remaining size is larger than 2 * DSIZE, split the block.
- *                          case 2: If the remaining size is smaller than 2 * DSIZE, place the block at the left side.
- *                          case 3: If the remaining size is negative and the next block is free, extend the heap.
- *                          case 4: If the remaining size is negative and the next block is allocated, malloc a new block and copy the data.
- *               If size is smaller than the original size, split the block.
- *     Features:
- *              When malloc, find the least suitable list to insert.
- *                           and put the larger block at the right side.
+ *      Free List：使用 Free List 来管理 free block。每个空闲列表的大小在前几个列表中是线性的，在最后几个列表中是指数的。
+ * 		堆结构：前几个块是空闲列表的偏移量，然后是堆的开始符号，然后是实际使用的块。
+ * 		区块结构：
+ *                     1.已分配的区块：
+ *                          1.1.Header：4 字节，包括块的大小和分配的位。
+ *                          1.2.Payload：实际数据。
+ *                          1.3.Footer：4 字节，包括块的大小和分配的位。
+ *                     2.空闲区块：
+ *                          2.1.Prev： 4 字节，空闲列表中前一个空闲块的偏移量。
+ *                          2.2.succ：4 字节，空闲列表中下一个空闲块的偏移量。
+ * 		Realloc：如果 size 等于 0，则释放块。如果 ptr 等于 NULL，则 malloc 块。
+ * 		如果尺寸大于原始尺寸：
+ * 		情况 1：如果剩余大小大于 2 * DSIZE，则拆分块。
+ * 		情况 2：如果剩余大小小于 2 * DSIZE，请将块放在左侧。
+ * 		情况 3：如果剩余大小为负数且下一个块是空闲的，则扩展堆。
+ * 		情况 4：如果剩余大小为负数，并且分配了下一个块，则 malloc 一个新块并复制数据。
+ * 		如果 size 小于原始大小，则拆分块。
+ *	特征：
+ * 		当 malloc 时，找到最不合适的列表进行插入。
+ * 		并将较大的块放在右侧。
  *     TODO： (on summer vocation)
  *              1. When choose a suitable free block, maybe if I choose top K blocks to find a better one to get better util.
  *
