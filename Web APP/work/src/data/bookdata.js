@@ -92,6 +92,77 @@ export const mockBooks = [
 
 export const mockTags = ["编程", "小说", "历史", "全部"];
 
+
+export const initialCartItems = [
+    {
+        id: 1,
+        book: {
+            id: 1,
+            title: "JavaScript 编程思想",
+            author: "张三",
+            tag: "编程",
+            cover: "https://img3m0.ddimg.cn/4/24/9317290-1_u_6.jpg",
+            price: 2990, // 29.90元
+            sales: 150,
+            tags: [{ name: "编程" }, { name: "JavaScript" }],
+            description: "深入探讨 JavaScript 的核心概念和编程思想，适合中高级开发者。",
+        },
+        number: 2,
+    },
+    {
+        id: 2,
+        book: {
+            id: 2,
+            title: "Java 核心技术 卷一",
+            author: "李四",
+            tag: "编程",
+            cover: "https://img3m8.ddimg.cn/7/0/29411818-1_u_28.jpg",
+            price: 3990,
+            sales: 200,
+            tags: [{ name: "编程" }, { name: "Java" }],
+            description: "Java 编程的经典教材，涵盖基础到进阶内容。",
+        },
+        number: 1,
+    },
+];
+export function addToCart(book, quantity = 1) {
+    const existingItem = initialCartItems.find(item => item.book.id === book.id);
+    if (existingItem) {
+        // 如果书籍已存在，增加数量
+        alert("该书籍已存在，数量加一");
+        existingItem.number += quantity;
+    } else {
+        // 如果书籍不存在，添加新条目
+        alert("该书籍不存在");
+        initialCartItems.push({
+            id: initialCartItems.length + 1, // 简单生成唯一ID
+            book: { ...book },
+            number: quantity,
+        });
+    }
+    // 返回更新后的购物车数据
+    return [...initialCartItems];
+}
+export const mockOrder = [
+    {
+        date: "2025-04-16 15:58:04",
+        quantity: 1,
+        productImage: "https://img3m0.ddimg.cn/4/24/9317290-1_u_6.jpg",
+        description: "JavaScript 编程思想",
+        price: "¥29.9",
+        status: "已完成",
+        recipient: "张三"
+    },
+    {
+        date: "2025-04-16 15:55:02",
+        quantity: 1,
+        productImage: "https://img3m5.ddimg.cn/18/16/11186350875-1_u_1.jpg",
+        description: "C++ Primer 中文版（第 5 版）",
+        price: "¥44.79",
+        status: "已完成",
+        recipient: "张三"
+    }
+];
 // 模拟评论数据（适用于所有书籍）
 export const generateMockComments = (bookId, pageIndex, pageSize, sort) => {
     const totalComments = 20; // 假设每本书有 20 条评论
@@ -177,36 +248,3 @@ export const getMockOrders = (pageIndex, pageSize) => {
         items: paginatedOrders,
     };
 };
-
-export const initialCartItems = [
-    {
-        id: 1,
-        book: {
-            id: 1,
-            title: "JavaScript 编程思想",
-            author: "张三",
-            tag: "编程",
-            cover: "https://img3m0.ddimg.cn/4/24/9317290-1_u_6.jpg",
-            price: 2990, // 29.90元
-            sales: 150,
-            tags: [{ name: "编程" }, { name: "JavaScript" }],
-            description: "深入探讨 JavaScript 的核心概念和编程思想，适合中高级开发者。",
-        },
-        number: 2,
-    },
-    {
-        id: 2,
-        book: {
-            id: 2,
-            title: "Java 核心技术 卷一",
-            author: "李四",
-            tag: "编程",
-            cover: "https://img3m8.ddimg.cn/7/0/29411818-1_u_28.jpg",
-            price: 3990,
-            sales: 200,
-            tags: [{ name: "编程" }, { name: "Java" }],
-            description: "Java 编程的经典教材，涵盖基础到进阶内容。",
-        },
-        number: 1,
-    },
-];

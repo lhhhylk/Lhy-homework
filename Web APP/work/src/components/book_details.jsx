@@ -1,13 +1,16 @@
 import { Button, Col, Image, Row, Space, Tag, message } from "antd"; // 引入 message 组件
 import { Divider, Typography } from 'antd';
 import {ExclamationCircleOutlined, ShoppingCartOutlined, ShoppingOutlined} from '@ant-design/icons'
+import {addToCart} from "../data/bookdata";
+
 
 const { Title, Paragraph } = Typography;
 
 export default function BookDetails({ book }) {
     // 点击“加入购物车”的处理函数
     const handleAddToCart = () => {
-        alert('已加入购物车'); // 显示“已加入购物车”提示
+        addToCart(book, 1); // 添加书籍到购物车，数量为1
+        alert('已加入购物车'); // 使用 antd 的 message 组件显示提示
     };
 
     // 点击“立即购买”的处理函数
